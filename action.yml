@@ -1,0 +1,8 @@
+name: 'AWS cli'
+description: 'runs the AWS cli'
+outputs:
+  result:
+    description: 'true/false'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
