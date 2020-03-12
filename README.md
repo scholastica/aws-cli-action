@@ -10,6 +10,6 @@ used in the scholastica-grobid repo.
 # build the image
 $ docker build -t aws-cli .
 
-# run the image
+# list s3 buckets
 $ docker run --rm -it -e AWS_ACCESS_KEY_ID=YOU-ACCESS-KEY-GOES-HERE -e AWS_SECRET_ACCESS_KEY=YOU-SECRET-GOES-HERE aws-cli s3 ls
 ```
